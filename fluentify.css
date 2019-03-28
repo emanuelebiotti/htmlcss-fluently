@@ -34,9 +34,12 @@ nav {
   top:50%;
   transform: translateY(-50%);
 }
+.uppercase {
+  text-transform: uppercase;
+}
 .options ul li {
   display:inline-block;
-  text-transform: uppercase;
+  list-style-type: none;
   font-size: 75%;
   padding:8px;
 }
@@ -49,6 +52,23 @@ width:45%;
 height:100%;
 border: 1px solid red;
 float:right;
+position: relative;
+}
+.login ul {
+  position:absolute;
+  top:50%;
+  right:5%;
+  transform: translate(-5%,-50%);
+}
+.login ul li {
+  display:inline-block;
+  list-style-type: none;
+  font-size: 75%;
+  padding:8px;
+}
+.login ul li a {
+  text-decoration: none;
+  color:white;
 }
 .choose {
   width:100%;
