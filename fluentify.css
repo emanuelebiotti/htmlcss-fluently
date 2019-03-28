@@ -49,7 +49,30 @@ float:right;
   width:100%;
   height:180px;
   border:1px solid red;
+  background-color: #e8eaed;
+  position: relative;
 }
+.textCenter {
+  text-align: center;
+}
+.traditionalText {
+  width:70%;
+  height: 50%;
+  border:1px solid red;
+  margin:0 auto;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+.traditionalText h1, p {
+  padding-top:15px;
+}
+.traditionalText p {
+  color:#58595b;
+}
+
 .offer {
   width:100%;
   height: 450px;
@@ -71,7 +94,6 @@ float:right;
   float:left;
   border:1px solid red;
 }
-
 .chooseText {
   width:50%;
   height:50%;
@@ -82,7 +104,6 @@ float:right;
   color:white;
   font-size: 180%;
 }
-
 .plan {
   text-decoration: none;
   color:white;
