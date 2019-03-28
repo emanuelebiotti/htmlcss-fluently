@@ -43,6 +43,7 @@ float:right;
   height:100%;
   float:left;
   border:1px solid red;
+  position: relative;
 }
 .traditional {
   width:100%;
@@ -69,4 +70,28 @@ float:right;
   height:100%;
   float:left;
   border:1px solid red;
+}
+
+.chooseText {
+  width:50%;
+  height:50%;
+  border:1px solid red;
+  position: relative;
+  top:50%;
+  transform: translateY(-50%);
+  color:white;
+  font-size: 180%;
+}
+
+.plan {
+  text-decoration: none;
+  color:white;
+  background-color: green;
+  font-size: 70%;
+  padding:2%;
+  border-radius: 5px;
+}
+  .plan2 {
+  position: absolute;
+  top:60%;
 }
