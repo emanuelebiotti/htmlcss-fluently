@@ -190,7 +190,7 @@ position: relative;
   height:90%;
   padding:10px;
 }
-.discoverText, .lessonText {
+.discoverText, .lessonText, .justText {
   width:80%;
   height:60%;
   border:1px solid red;
@@ -261,4 +261,35 @@ position: relative;
 }
 .lessonText span {
   color:orange;
+}
+.just {
+  width:100%;
+  height:420px;
+  border:1px solid red;
+}
+.just {
+  z-index: 5;
+}
+.just .col2 img {
+  width:100;
+  position:absolute;
+  top:50%;
+  transform:translateY(-50%)
+}
+.justText ul li {
+  list-style-type: none;
+  display:inline-block;
+  padding-top:10px;
+}
+.justText ul li a {
+  font-size: 70%;
+  color:white;
+  background-color: green;
+  text-decoration: none;
+  line-height: 40px;
+  padding:10px;
+  border-radius: 5px;
+}
+.justText ul li h5 {
+  color:#44a2ce;
 }
