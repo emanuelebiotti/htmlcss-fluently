@@ -125,7 +125,6 @@ position: relative;
   border:1px solid red;
   position:relative;
 }
-
 .chooseText {
   width:50%;
   height:50%;
@@ -144,7 +143,7 @@ position: relative;
   padding:2%;
   border-radius: 5px;
 }
-  .plan2 {
+.plan2 {
   position: absolute;
   top:60%;
 }
@@ -174,7 +173,6 @@ position: relative;
 .offerText p {
   margin:10px;
 }
-
 .discover {
   width:100%;
   height: 420px;
@@ -205,4 +203,37 @@ position: relative;
 .discoverText a {
   line-height: 40px;
   color:#3eade0;
+}
+.structure {
+  width:100%;
+  height:150px;
+  border:1px solid red;
+  position: relative;
+}
+.structure .col2 h1 {
+  font-size: 200%;
+  position: absolute;
+  top:50%;
+  transform: translateY(-50%);
+}
+.structure .col2 ul {
+  position: absolute;
+  top:50%;
+  transform: translateY(-50%);
+}
+.structure .col2 ul li {
+  display:inline-block;
+  font-size: 200%;
+}
+.structure .col2 ul li:not(.plan) {
+  margin:20px;
+}
+.structure .col2 ul li select {
+  font-size: 80%;
+  width:200px;
+}
+.structure .col2 ul li.plan {
+  font-size: 100%;
+  width:250px;
+  height:40px;
 }
