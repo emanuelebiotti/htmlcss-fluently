@@ -65,14 +65,12 @@ float:right;
   left:50%;
   transform: translate(-50%,-50%);
 }
-
 .traditionalText h1, p {
   padding-top:15px;
 }
 .traditionalText p {
   color:#58595b;
 }
-
 .offer {
   width:100%;
   height: 450px;
@@ -83,6 +81,7 @@ float:right;
   height:100%;
   float:left;
   border:1px solid red;
+  position:relative;
 }
 .discover {
   width:100%;
@@ -115,4 +114,30 @@ float:right;
   .plan2 {
   position: absolute;
   top:60%;
+}
+.offer .col3 img {
+  width:30%;
+  margin:auto;
+  position: absolute;
+  left:50%;
+  top:10%;
+  transform: translate(-50%, -10%);
+}
+.green  {
+  color:#29cc20;
+}
+.offerText {
+  width:90%;
+  margin:auto;
+  position: relative;
+  top:50%;
+}
+.offerText hr {
+  width:10%;
+  margin:auto;
+  position: relative;
+  top:12px;
+}
+.offerText p {
+  margin:10px;
 }
